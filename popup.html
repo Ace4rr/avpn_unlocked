@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>avpn_unlocked</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+
+  <div class="head">
+    <img id="avatar" src="avatar.webp" alt="">
+    <span id="status">Загрузка…</span>
+    <button id="gear" title="Сетевые настройки">⚙</button>
+  </div>
+
+  <div class="error" id="error" hidden></div>
+
+  <button id="toggle" class="toggle off">
+    <span class="spinner"></span>
+    <svg class="ic ic-play" viewBox="0 0 24 24" width="14" height="14" aria-hidden="true">
+      <path fill="currentColor" d="M8 5.5v13a1 1 0 0 0 1.54.84l10-6.5a1 1 0 0 0 0-1.68l-10-6.5A1 1 0 0 0 8 5.5z"/>
+    </svg>
+    <svg class="ic ic-stop" viewBox="0 0 24 24" width="14" height="14" aria-hidden="true">
+      <rect fill="currentColor" x="6" y="6" width="12" height="12" rx="2.5"/>
+    </svg>
+    <span id="label">Подключиться</span>
+  </button>
+
+  <div class="servers">
+    <button class="srv" data-srv="de"><img src="de.png" alt=""><span>DE</span></button>
+    <button class="srv" data-srv="nl"><img src="nl.png" alt=""><span>NL</span></button>
+    <button class="srv" data-srv="ru"><img src="ru.png" alt=""><span>RU</span></button>
+  </div>
+
+  <div class="meta" id="meta" hidden></div>
+
+  <div class="panel" id="panel" hidden>
+    <label class="row">
+      <input type="checkbox" id="autoReconnect">
+      <span>Автопереподключение при обрыве</span>
+    </label>
+    <label class="row">
+      <span>Продлевать сессию за</span>
+      <input type="number" id="renewAhead" class="num" min="1" max="20">
+      <span>мин до конца</span>
+    </label>
+    <label class="row">
+      <span>Протокол</span>
+      <select id="scheme">
+        <option value="http">HTTP</option>
+        <option value="socks5">SOCKS5</option>
+      </select>
+    </label>
+    <label class="col">
+      <span>Сайты мимо VPN — домен или *.domain, с новой строки</span>
+      <textarea id="bypass" rows="3" spellcheck="false" placeholder="*.example.com&#10;myshop.local"></textarea>
+    </label>
+    <label class="col">
+      <span>Свой API-сервер (пусто — стандартный)</span>
+      <input type="text" id="apiBase" spellcheck="false" placeholder="https://api.open60m.ru">
+    </label>
+  </div>
+
+<script src="popup.js"></script>
+</body>
+</html>

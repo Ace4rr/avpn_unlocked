@@ -1,0 +1,17 @@
+{
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "description": "UwU",
+  "host_permissions": ["<all_urls>"],
+  "icons": {
+    "128": "icon.png"
+  },
+  "manifest_version": 3,
+  "name": "avpn_unlocked",
+  "permissions": ["proxy", "storage", "alarms"],
+  "version": "4.1.0"
+}
