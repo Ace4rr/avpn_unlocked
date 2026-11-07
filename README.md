@@ -8,7 +8,7 @@ Browser shark vpn extension (reworked amneziavpn's ext)
 ### For Google Chrome, Microsoft Edge, Brave, and other Chromium-based browsers:
 1. Download or clone this repository to your local machine:
    ```bash
-   git clone <https://github.com/Ace4rr/avpn_unlocked>
+   git clone https://github.com/Ace4rr/avpn_unlocked
    ```
 2. Open your browser and navigate to the extensions page:
    - Chrome: `chrome://extensions/`
