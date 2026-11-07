@@ -1,14 +1,14 @@
-# avpn_unlocked
+# avpn_unlocked 👅
 
 ## Description
-A browser extension to manage proxy and network settings seamlessly.
+Browser shark vpn extension (reworked amneziavpn's ext) 
 
 ## Installation
 
 ### For Google Chrome, Microsoft Edge, Brave, and other Chromium-based browsers:
 1. Download or clone this repository to your local machine:
    ```bash
-   git clone <repository-url>
+   git clone <https://github.com/Ace4rr/avpn_unlocked>
    ```
 2. Open your browser and navigate to the extensions page:
    - Chrome: `chrome://extensions/`
@@ -27,12 +27,8 @@ A browser extension to manage proxy and network settings seamlessly.
 
 ## Usage
 1. Click the extension icon in your browser's toolbar to open the popup.
-2. If you don't see the icon, click the puzzle piece (Extensions menu) and pin **avpn_unlocked** to your toolbar.
-3. Use the interface to configure and connect to your preferred network settings.
-4. Click the gear (⚙) icon to access additional network configurations.
-
-## Contributing
-Contributions are welcome! Please feel free to submit a Pull Request or open an Issue for any bugs or feature requests.
+2. Use the interface to configure and connect to your preferred network settings.
+3. Click the gear icon to access additional network configurations.
 
 ## License
-This project is open-source. Please check the repository for specific license details.
+This project is stolen and vibecoded (lol). Free to use
